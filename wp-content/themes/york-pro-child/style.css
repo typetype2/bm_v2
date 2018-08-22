@@ -1,0 +1,97 @@
+/*
+Theme Name:     York Pro Child
+Theme URI:      http://demo.themebeans.com/york
+Description:    Make your modifications to York Pro in this child theme.
+Author:         ThemeBeans
+Author URI:     http://themebeans.com
+Version:        1.0
+Template:       york-pro
+*/
+
+
+/*------------------------------------*\
+ * 2.0 - Typography
+\*------------------------------------*/
+
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #012329;
+	font-family: "Karla", HelveticaNeue, Helvetica, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.45;
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 16px;
+		line-height: 1.45em;
+	}
+}
+
+
+body {
+	word-wrap: break-word;
+
+	-webkit-overflow-scrolling: touch;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	clear: both;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1.3em;
+	margin-bottom: 0;
+
+	-webkit-font-smoothing: auto;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-variant-ligatures: common-ligatures;
+	-moz-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	font-family: "Vesper Libre", serif;
+	font-size: 36px;
+	line-height: 1.4em;
+	margin-bottom: 2vw;
+}
+
+h2 {
+	font-family: "Vesper Libre", serif;
+	font-size: 28px;
+	margin-bottom: 5%;
+}
+
+h3 {
+	font-family: "Vesper Libre", serif;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+h4 {
+	font-family: "Vesper Libre", serif;
+	font-size: 18px;
+	line-height: 1.7em;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
